@@ -11,6 +11,8 @@ KardioLab have been proposed in two main manuscrips:
 
 ## Clinical Setting
 
+![alt text](https://github.com/AI4HealthUOL/KardioLab/blob/main/reports/abstract-1.png?style=centerme)
+
 In this study, conducted within the context of an emergency department, we introduce a state-of-the-art biomedical multimodal benchmark. This benchmark is evaluated in two comprehensive settings:
 
 1. **Patient Discharge Diagnoses**: A dataset consisting of 1,428 patient discharge diagnoses.
