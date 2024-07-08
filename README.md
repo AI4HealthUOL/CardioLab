@@ -1,8 +1,12 @@
-# MDS-ED: Multimodal Decision Support in the Emergency Department – a benchmark dataset based on MIMIC-IV
+## This is the official repository for **KardioLab**. A machine and deep learning framework for the estimation and monitoring of laboratory values throught ECG data.
 
-This is the official repository for the paper MDS-ED: Multimodal Decision Support in the Emergency Department – a benchmark dataset based on MIMIC-IV
+KardioLab have been proposed in two main manuscrips:
 
-[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2405.15871)
+1. **KardioLab: Laboratory Values Estimation from Electrocardiogram Features - An Exploratory Study.** Accepted by the international conference of computing in cardiology (CinC) 2024. [![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2405.15871)
+   
+2. **KardioLab: Laboratory Values Estimation and Monitoring from Electrocardiogram Signals - A Deep-Multimodal Approach** [![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2405.15871)
+
+
 
 ## Clinical Setting
 
