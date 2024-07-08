@@ -13,14 +13,16 @@ KardioLab have been proposed in two main manuscrips:
 
 ![alt text](https://github.com/AI4HealthUOL/KardioLab/blob/main/reports/abstract-1.png?style=centerme)
 
-In this study, conducted within the context of an emergency department, we introduce a state-of-the-art biomedical multimodal benchmark. This benchmark is evaluated in two comprehensive settings:
+ 
+- A) Demonstrates the overall predictive workflow used in the study, where for model inputs we use ECG waveforms, demographics, biometrics, and vital signs, in a binary classification setting to predict abnormal laboratory values.
 
-1. **Patient Discharge Diagnoses**: A dataset consisting of 1,428 patient discharge diagnoses.
-2. **Patient Decompensation Events**: A dataset consisting of 15 patient decompensation events.
+- B) Demonstrates the estimation task, where for feature space we sample the closest vital signs within 30 minutes of the ECG record, and the target is the closest laboratory value within 60 minutes.
 
-The datasets include various patient data collected within a 90-minute interval upon arrival, such as:
-- Demographics
-- Biometrics
+- C) Demonstrates the monitoring task, where the feature space also includes the closest vital signs within 30 minutes of the ECG record, and the target is the presence of any abnormal laboratory value within a defined future time horizon, for which we investigated 30, 60, and 120 minutes.
+
+
+
+Our CinC manuscript investigate only the estimation task with ECG features and patient demographics, whereas our second manuscript uses ECG waveforms instead of features and investigate both estimation and monitoring tasks, with the comprehensive set of features.
 
 
 ## Reference
