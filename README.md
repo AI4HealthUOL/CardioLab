@@ -1,4 +1,4 @@
-## This is the official repository for **KardioLab**. A machine and deep learning framework for the estimation and monitoring of laboratory values throught ECG data.
+## This is the official repository for <ins>CardioLab</ins>. A machine and deep learning framework for the estimation and monitoring of laboratory values throught ECG data.
 
 KardioLab have been proposed in two main manuscrips:
 
