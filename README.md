@@ -22,17 +22,23 @@ CardioLab have been proposed in two main manuscrips:
 
 
 
-Our CinC manuscript investigate only the estimation task with ECG features and patient demographics, whereas our second manuscript uses ECG waveforms instead of features and investigate both estimation and monitoring tasks, with the comprehensive set of features.
+In terms of ECG data, our CinC manuscript investigate only the estimation task with ECG features, whereas our second manuscript uses ECG waveforms instead.
 
 
-## Reference
+## CinC Reference
 ```bibtex
-@misc{alcaraz2024causalconceptts,
-      title={CausalConceptTS: Causal Attributions for Time Series Classification using High Fidelity Diffusion Models}, 
+@misc{alcaraz2024cardiolablaboratoryvaluesestimation,
+      title={CardioLab: Laboratory Values Estimation from Electrocardiogram Features -- An Exploratory Study}, 
       author={Juan Miguel Lopez Alcaraz and Nils Strodthoff},
       year={2024},
-      eprint={2405.15871},
+      eprint={2407.18629},
       archivePrefix={arXiv},
-      primaryClass={cs.LG}
+      primaryClass={eess.SP},
+      url={https://arxiv.org/abs/2407.18629}, 
 }
 ```
+
+
+
+
+
