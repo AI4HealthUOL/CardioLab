@@ -11,7 +11,7 @@ CardioLab have been proposed in two main manuscrips:
 
 ## Clinical Setting
 
-![alt text](https://github.com/AI4HealthUOL/KardioLab/blob/main/reports/abstract-1.png?style=centerme)
+![alt text](https://github.com/AI4HealthUOL/KardioLab/blob/main/reports/abstract.png?style=centerme)
 
  
 - A) Demonstrates the overall predictive workflow used in the study, where for model inputs we use ECG waveforms, demographics, biometrics, and vital signs, in a binary classification setting to predict abnormal laboratory values.
