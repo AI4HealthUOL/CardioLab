@@ -7,6 +7,7 @@ CardioLab have been proposed in two main manuscrips:
 2. **CardioLab: Laboratory Values Estimation and Monitoring from Electrocardiogram Signals - A Deep-Multimodal Approach** [![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2411.14886)
 
 
+In terms of ECG data and clinical settings, our CinC manuscript investigate only abnormalities estimation (current) task with ECG tabular features, whereas our second manuscript investigate abnormalities estimation (current) as well as abnormalities monitoring (future) using ECG raw waveforms instead.
 
 
 ## Clinical Setting
@@ -20,9 +21,6 @@ CardioLab have been proposed in two main manuscrips:
 
 - C) Demonstrates the monitoring task, where the feature space also includes the closest vital signs within 30 minutes of the ECG record, and the target is the presence of any abnormal laboratory value within a defined future time horizon, for which we investigated 30, 60, and 120 minutes.
 
-
-
-In terms of ECG data, our CinC manuscript investigate only the estimation task with ECG features, whereas our second manuscript uses ECG waveforms instead.
 
 
 ## CinC Reference
