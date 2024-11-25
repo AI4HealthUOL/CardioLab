@@ -23,7 +23,19 @@ In terms of ECG data and clinical settings, our CinC manuscript investigate only
 
 
 
-## CinC Reference
+
+```bibtex
+@misc{alcaraz2024cardiolablaboratoryvaluesestimation,
+      title={CardioLab: Laboratory Values Estimation from Electrocardiogram Features -- An Exploratory Study}, 
+      author={Juan Miguel Lopez Alcaraz and Nils Strodthoff},
+      year={2024},
+      eprint={2407.18629},
+      archivePrefix={arXiv},
+      primaryClass={eess.SP},
+      url={https://arxiv.org/abs/2407.18629}, 
+}
+```
+
 ```bibtex
 @misc{alcaraz2024cardiolablaboratoryvaluesestimation,
       title={CardioLab: Laboratory Values Estimation from Electrocardiogram Features -- An Exploratory Study}, 
