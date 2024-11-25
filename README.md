@@ -38,13 +38,13 @@ In terms of ECG data and clinical settings, our CinC manuscript investigate only
 
 ```bibtex
 @misc{alcaraz2024cardiolablaboratoryvaluesestimation,
-      title={CardioLab: Laboratory Values Estimation from Electrocardiogram Features -- An Exploratory Study}, 
+      title={CardioLab: Laboratory Values Estimation and Monitoring from Electrocardiogram Signals -- A Multimodal Deep Learning Approach}, 
       author={Juan Miguel Lopez Alcaraz and Nils Strodthoff},
       year={2024},
-      eprint={2407.18629},
+      eprint={2411.14886},
       archivePrefix={arXiv},
       primaryClass={eess.SP},
-      url={https://arxiv.org/abs/2407.18629}, 
+      url={https://arxiv.org/abs/2411.14886}, 
 }
 ```
 
