@@ -24,6 +24,8 @@ In terms of ECG data and clinical settings, our CinC manuscript investigate only
 
 
 
+## References
+
 ```bibtex
 @misc{alcaraz2024cardiolablaboratoryvaluesestimation,
       title={CardioLab: Laboratory Values Estimation from Electrocardiogram Features -- An Exploratory Study}, 
