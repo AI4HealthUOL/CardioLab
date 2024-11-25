@@ -4,7 +4,7 @@ CardioLab have been proposed in two main manuscrips:
 
 1. **CardioLab: Laboratory Values Estimation from Electrocardiogram Features - An Exploratory Study.** <ins>Accepted by the international conference of computing in cardiology (CinC) 2024.</ins> [![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2407.18629)
    
-2. **CardioLab: Laboratory Values Estimation and Monitoring from Electrocardiogram Signals - A Deep-Multimodal Approach** [![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2405.15871)
+2. **CardioLab: Laboratory Values Estimation and Monitoring from Electrocardiogram Signals - A Deep-Multimodal Approach** [![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2411.14886)
 
 
 
