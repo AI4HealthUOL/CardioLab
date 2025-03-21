@@ -1,0 +1,9 @@
+defaults:
+  - base
+
+name: "mdsed_diagnoses" #mdsed_deterioration
+path: "data/memmap"
+fs: 100.
+annotation: false
+cols_static: ["cont_features"]
+cols_static_cat: ["cat_features"]
