@@ -9,28 +9,22 @@ Before running the scripts, download the following files and place them in the r
 - **machine_measurements.csv** from [PhysioNet](https://physionet.org/content/mimic-iv-ecg/1.0/)
 - **ECG_ViEW_II_for_CVS.zip** (do not unzip) from [ECG ViEW II](http://ecgview.org/)
 
-## 2. Install Dependencies
-Ensure you have Python installed (recommended version: 3.8+). Install the required dependencies using:
 
-```bash
-pip install -r requirements.txt
-```
-
-## 3. Run Preprocessing
+## 2. Run Preprocessing
 First, preprocess the data by running:
 
 ```bash
 python preprocessing.py
 ```
 
-## 4. Train the Model
+## 3. Train the Model
 After preprocessing is complete, train the model by running:
 
 ```bash
-python main.py
+python main_all.py --config config/config_supervised_multimodal_labvalues_s4.yaml
 ```
 
-## 5. Output and Results
+## 4. Output and Results
 The results, including model performance metrics and analyses, will be saved automatically in the `here/` directory.
 
 If you encounter any issues, verify the dataset paths and ensure dependencies are correctly installed.
