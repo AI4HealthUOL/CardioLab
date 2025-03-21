@@ -17,10 +17,10 @@ Before running the scripts, download the following files and place them in the r
 
 - **records_w_diag_icd10.csv** from [MIMIC-IV-ECG-ICD](https://www.physionet.org/content/mimic-iv-ecg-ext-icd-labels/1.0.1/)
 
-
 - **record_list.csv** from [MIMIC-IV-ECG](https://physionet.org/content/mimic-iv-ecg/1.0/)
 - **machine_measurements.csv** from [MIMIC-IV-ECG](https://physionet.org/content/mimic-iv-ecg/1.0/)
 - **machine_measurements_data_dictionary.csv** from [MIMIC-IV-ECG](https://physionet.org/content/mimic-iv-ecg/1.0/)
+- **mimic-iv-ecg-diagnostic-electrocardiogram-matched-subset-1.0.zip** from [MIMIC-IV-ECG](https://physionet.org/content/mimic-iv-ecg/1.0/)
   
 
 ## 2. Run Preprocessing
