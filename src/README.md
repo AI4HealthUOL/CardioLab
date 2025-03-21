@@ -5,10 +5,23 @@ This repository provides scripts to preprocess ECG data, train models, and analy
 ## 1. Download Required Datasets
 Before running the scripts, download the following files and place them in the root directory of this repository:
 
-- **records_w_diag_icd10.csv** from [PhysioNet](https://physionet.org/content/mimic-iv-ecg-ext-icd-labels/1.0.1/)
-- **machine_measurements.csv** from [PhysioNet](https://physionet.org/content/mimic-iv-ecg/1.0/)
-- **ECG_ViEW_II_for_CVS.zip** (do not unzip) from [ECG ViEW II](http://ecgview.org/)
 
+
+- **patients.csv.gz** from [MIMIC-IV](https://physionet.org/content/mimiciv/3.1/)
+- **d_labitems.csv.gz** from [MIMIC-IV](https://physionet.org/content/mimiciv/3.1/)
+- **labevents.csv.gz** from [MIMIC-IV](https://physionet.org/content/mimiciv/3.1/)
+- **omr.csv.gz** from [MIMIC-IV](https://physionet.org/content/mimiciv/3.1/)
+
+- **edstays.csv.gz** from [MIMIC-IV-ED](https://physionet.org/content/mimic-iv-ed/2.2/)
+- **vitalsign.csv.gz** from [MIMIC-IV-ED](https://physionet.org/content/mimic-iv-ed/2.2/)
+
+- **records_w_diag_icd10.csv** from [MIMIC-IV-ECG-ICD](https://www.physionet.org/content/mimic-iv-ecg-ext-icd-labels/1.0.1/)
+
+
+- **record_list.csv** from [MIMIC-IV-ECG](https://physionet.org/content/mimic-iv-ecg/1.0/)
+- **machine_measurements.csv** from [MIMIC-IV-ECG](https://physionet.org/content/mimic-iv-ecg/1.0/)
+- **machine_measurements_data_dictionary.csv** from [MIMIC-IV-ECG](https://physionet.org/content/mimic-iv-ecg/1.0/)
+- 
 
 ## 2. Run Preprocessing
 First, preprocess the data by running:
