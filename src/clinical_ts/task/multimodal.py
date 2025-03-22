@@ -1,6 +1,7 @@
 from ..template_model import SSLModel
 from ..template_modules import TaskConfig
 from ..data.time_series_dataset_utils import load_dataset
+from ..data.time_series_dataset_transforms import Transform
 from pathlib import Path
 from dataclasses import dataclass
 import numpy as np
