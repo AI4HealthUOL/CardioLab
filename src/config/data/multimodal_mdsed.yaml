@@ -1,7 +1,7 @@
 defaults:
   - base
 
-name: "mdsed_diagnoses" #mdsed_deterioration
+name: "mimic_labvalues" 
 path: "data/memmap"
 fs: 100.
 annotation: false
