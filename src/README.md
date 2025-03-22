@@ -31,16 +31,14 @@ python preprocessing.py
 ```
 
 ## 3. Train the Model
-After preprocessing is complete, train the model by running:
+After preprocessing is complete, train and test the model by running:
 
 ```bash
 python main_all.py --config config/config_supervised_multimodal_labvalues_s4.yaml
 ```
 
 ## 4. Output and Results
-The results, including model performance metrics and analyses, will be saved automatically in the `here/` directory.
-
-If you encounter any issues, verify the dataset paths and ensure dependencies are correctly installed.
+The results, including model performance metrics and analyses, will be saved automatically in the the current directory.
 
 ---
 
