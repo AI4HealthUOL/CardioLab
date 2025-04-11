@@ -1,10 +1,8 @@
 ## This is the official repository for <ins>CardioLab</ins>. A machine and deep learning framework for the estimation and monitoring of laboratory values throught ECG data.
 
-CardioLab have been proposed in two main manuscrips:
-
-1. **CardioLab: Laboratory Values Estimation from Electrocardiogram Features - An Exploratory Study.** <ins>Accepted by the international conference of computing in cardiology (CinC) 2024.</ins> [![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2407.18629)
+CardioLab have been proposed in a main manuscrips:
    
-2. **CardioLab: Laboratory Values Estimation and Monitoring from Electrocardiogram Signals - A Deep-Multimodal Approach** [![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2411.14886)
+**CardioLab: Laboratory Values Estimation and Monitoring from Electrocardiogram Signals - A Deep-Multimodal Approach** 
 
 
 In terms of ECG data and clinical settings, our CinC manuscript investigate only abnormalities estimation (current) task with ECG tabular features, whereas our second manuscript investigate abnormalities estimation (current) as well as abnormalities monitoring (future) using ECG raw waveforms instead.
