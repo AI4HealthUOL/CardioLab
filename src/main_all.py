@@ -88,7 +88,7 @@ cs = create_default_config()
 @hydra.main(version_base=None, config_path="conf",  config_name="config_supervised_ecg")
 def run(hparams: FullConfig) -> None:
     hparams.trainer.executable = "main_all"
-    hparams.trainer.revision = get_git_revision_short_hash()
+    #hparams.trainer.revision = get_git_revision_short_hash()
 
     if not os.path.exists(hparams.trainer.output_path):
         os.makedirs(hparams.trainer.output_path)
