@@ -664,3 +664,40 @@ filtered_record_list.drop(['final_label_estimation',
 np.save('saved_data/all_features.npy', all_features)
 filtered_record_list.to_pickle('saved_data/df_memmap.pkl')
 
+
+
+df_memmap = pd.read_pickle('saved_data/df_memmap.pkl')
+
+# List of original feature columns (without '_m' mask columns)
+features_cols = ['gender', 'anchor_age', 'race_asian', 'race_black', 'race_hispanic', 'race_other', 'race_white',
+                 'temperature', 'heartrate', 'resprate', 'o2sat', 'sbp', 'dbp',
+                 'bmi', 'weight', 'height']
+
+# Iterate over feature columns and reset imputed values to NaN
+for col in features_cols:
+    mask_col = col + '_m'
+    df_memmap.loc[df_memmap[mask_col] == 0, col] = float('nan')  # Restore NaNs where imputation occurred
+
+# Drop the mask columns
+mask_cols = [col + '_m' for col in features_cols]
+df_memmap = df_memmap.drop(columns=mask_cols)
+df_memmap.to_pickle('saved_data/df_memmap.pkl')
+
+lbls_to_keep_estimation = np.load('saved_data/lbl_itos_estimation.npy', allow_pickle=True)
+lbls_to_keep_monitoring30 = np.load('saved_data/lbl_itos_monitoring30.npy', allow_pickle=True)
+lbls_to_keep_monitoring60 = np.load('saved_data/lbl_itos_monitoring60.npy', allow_pickle=True)
+lbls_to_keep_monitoring120 = np.load('saved_data/lbl_itos_monitoring120.npy', allow_pickle=True)
+
+lbls_to_keep_estimation = [i+'_est' for i in lbls_to_keep_estimation]
+lbls_to_keep_monitoring30 = [i+'_mon30' for i in lbls_to_keep_monitoring30]
+lbls_to_keep_monitoring60 = [i+'_mon60' for i in lbls_to_keep_monitoring60]
+lbls_to_keep_monitoring120 = [i+'_mon120' for i in lbls_to_keep_monitoring120]
+
+# Concatenate the arrays
+all_labels = np.concatenate((lbls_to_keep_estimation, 
+                             lbls_to_keep_monitoring30, 
+                             lbls_to_keep_monitoring60, 
+                             lbls_to_keep_monitoring120))
+
+
+np.save('saved_data/lbl_itos.npy', all_labels)
